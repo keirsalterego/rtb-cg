@@ -1,0 +1,63 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Debug builds
+debug/
+target/
+Cargo.lock
+
+# LLVM IR files
+*.ll
+*.bc
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+rtb-cli
+
+# C++ build artifacts
+*.o
+*.obj
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Benchmark results
+/benches/results/
+
+# Documentation builds
+/target/doc/
+
+# Profiling data
+*.profraw
+*.profdata
+perf.data
+perf.data.old
+
+# Test coverage
+*.gcda
+*.gcno
+*.gcov
+lcov.info
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
